@@ -69,12 +69,12 @@ if not exist ..\..\example\airbattledemo\CMakeLists.txt (
 )
 
 
-echo ---------------------------------------------------------------------------------
-mkdir example_airbattledemo_vs2013
-cd example_airbattledemo_vs2013
+REM echo ---------------------------------------------------------------------------------
+REM mkdir example_airbattledemo_vs2013
+REM cd example_airbattledemo_vs2013
 rem use vs2013 only, it seems cocos vs2015 version is buggy
-cmake -G "Visual Studio 12 2013" --build ../../../example/airbattledemo
-cd ..
+REM cmake -G "Visual Studio 12 2013" --build ../../../example/airbattledemo
+REM cd ..
 
 rem back cmake_binary
 cd ..
